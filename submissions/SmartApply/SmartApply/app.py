@@ -1,6 +1,5 @@
 import pandas as pd
 import subprocess
-n= [8,3,7,4]
 l = [2,6,5]
 df = pd.read_csv("JobsData.csv")
 num_job = 5-2 # len(df)
