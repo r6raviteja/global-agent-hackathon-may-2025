@@ -6,8 +6,8 @@ SmartApply is an AI-powered agent designed to automate and streamline the job ap
 ## 🚀 How to run
 1. comment down 4Mail.py it requires your Composio account API key
 2. Place your resume (CV.pdf), fill your preferences in 3Bro.py
-3. install requirements.txt, Change advanced models in 3Bro5.py like claude,.. if needed. and add environment variables openai, gemini, .. 
-4. Run app.py
+3. install requirements.txt, Change advanced models in 3Bro.py like claude,.. if needed. and add environment variables openai, gemini, .. 
+4. Run app.py ( JobsData.csv have list of jobs and Change variable numJob in app.py to apply for other jobs )
 
 
 ## 🚀 Features

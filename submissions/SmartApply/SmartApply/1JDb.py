@@ -54,6 +54,9 @@ df = df[df['Apply_Source'] != 'greenhouse']
 # Step 2: Define custom sort order
 priority = ['ashbyhq', 'workable']
 
+# filter jobs
+df = df[df['Apply_Source'] == 'ashbyhq']
+
 # Function to assign sort key
 def sort_key(x):
     if x in priority:
