@@ -15,8 +15,8 @@ from browser_use.browser.context import BrowserContext
 from browser_use.agent.views import ActionResult
 
 import anyio
-
 from patchright.async_api import BrowserContext
+from UserData import personal_details
 
 # Load environment variables
 _ = load_dotenv(find_dotenv())
@@ -73,11 +73,11 @@ async def upload_resume_and_cover_letter(resume_path: str, coverLetter_path: str
             
         elif num_inputs == 2:
             # If two inputs, upload resume first, then cover letter
-            #await page.evaluate("(element) => element.style.display = 'block'", file_inputs[0])
-            #await file_inputs[0].set_input_files(resume_path)
+            await page.evaluate("(element) => element.style.display = 'block'", file_inputs[0])
+            await file_inputs[0].set_input_files(resume_path)
             
             await page.evaluate("(element) => element.style.display = 'block'", file_inputs[1])
-            await file_inputs[1].set_input_files(resume_path)#coverLetter_path)
+            await file_inputs[1].set_input_files(coverLetter_path)
             return ActionResult(extracted_content="Uploaded resume and cover letter to two file inputs.")
             
         elif num_inputs >= 3:
@@ -167,25 +167,6 @@ async def safe_radio_select(browser: BrowserContext, question: str, value: str):
 
 with open("CV.txt", "r") as file:
     cv_content = file.read()
-
-personal_details = {
-        "Email": "r2raviteja@gmail.com",
-        "First name": "Raviteja",
-        "Last name": "Rachamadugu",
-        "Phone number": "15216442399",
-        "Language": "English",
-        "City": "Munich",
-        "State": "Germany",
-        "Zip / Postal Code": None,
-        "Country": "Germany",
-        "Salary":"60000",
-        "Notice period":"1 month",
-        "LinkedIn profile": "https://www.linkedin.com/in/rraviteja/",
-        "github":"https://github.com/r6raviteja/utej",
-        "Portfolio":"https://rraviteja.in",
-        "Where did you here about us":"Linkedin",
-        
-    }
 
 # --- Main Function --- #
 from langchain_openai import ChatOpenAI

@@ -15,18 +15,14 @@ from browser_use.browser.context import BrowserContext
 from browser_use.agent.views import ActionResult
 
 import anyio
-
 from patchright.async_api import BrowserContext
-
+from UserData import personal_details
 # Load environment variables
 _ = load_dotenv(find_dotenv())
-
 # Setup logging
 logger = logging.getLogger(__name__)
-
 # Add parent directory to system path if needed
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 # Initialize Browser and Controller
 browser = Browser(
     config=BrowserConfig(
@@ -168,24 +164,6 @@ async def safe_radio_select(browser: BrowserContext, question: str, value: str):
 with open("CV.txt", "r") as file:
     cv_content = file.read()
 
-personal_details = {
-        "Email": "r2raviteja@gmail.com",
-        "First name": "Raviteja",
-        "Last name": "Rachamadugu",
-        "Phone number": "15216442399",
-        "Language": "English",
-        "City": "Munich",
-        "State": "Germany",
-        "Zip / Postal Code": None,
-        "Country": "Germany",
-        "Salary":"60000",
-        "Notice period":"1 month",
-        "LinkedIn profile": "https://www.linkedin.com/in/rraviteja/",
-        "github":"https://github.com/r6raviteja/utej",
-        "Portfolio":"https://rraviteja.in",
-        "Where did you here about us":"Linkedin",
-        
-    }
 
 # --- Main Function --- #
 from langchain_openai import ChatOpenAI
@@ -198,12 +176,12 @@ llmo=llmo
 
 llmg=ChatGoogleGenerativeAI(model= "gemini-2.0-flash-exp")#model='gemini-1.5-flash')
 llmg=llmg
-
+script_dir = Path(__file__).parent.resolve()
 async def main():
     async with await browser.new_context() as context:
-        resume_path = Path('C:/Users/960ra/PycharmProjects/SmartApply/CV.pdf').resolve()
-        coverLetter_path = Path('C:/Users/960ra/PycharmProjects/SmartApply/User/CL.docx').resolve()
-        user_image_path = Path('C:/Users/960ra/PycharmProjects/SmartApply/User/pic.jpeg').resolve()
+        resume_path =  (script_dir / 'CV.pdf').resolve() # Path('C:/Users/960ra/PycharmProjects/SmartApply/CV.pdf').resolve()
+        coverLetter_path =  (script_dir / 'CL.docx').resolve() # Path('C:/Users/960ra/PycharmProjects/SmartApply/User/CL.docx').resolve()
+        user_image_path =  (script_dir / 'pic.jpeg').resolve() # Path('C:/Users/960ra/PycharmProjects/SmartApply/User/pic.jpeg').resolve()
         available_file_paths = [str(resume_path), str(coverLetter_path), str(user_image_path)]
         #job_url = "https://jobs.ashbyhq.com/kin/30278e35-0b41-4290-8328-026153619a1f/application?utm_source=remotive.com&ref=remotive.com"
 
@@ -211,9 +189,9 @@ async def main():
         # Define all tasks
         tasks = [
             f"""  
-**Rules**:  
+    **Rules**:  
     1. **Strict No-Submit Policy**: Under no circumstances click any submit/save/next buttons.
-    2. **Sequential Fill**: Process fields in order (top-to-bottom). Never backtrack. Scroll up by 70 px after each field and wait 2 seconds. 
+    2. **Sequential Fill**: Process fields in order (top-to-bottom). Never backtrack. After filling each field, IMMEDIATELY scroll down by 150px and wait 1 second before proceeding to the next field.
     3. **Error Handling**: Attempt each field twice → if failed, leave blank and move on.  
     4. **Skip Voluntary**: Ignore any voluntary demographic questions.
     5. **Stop Condition**: When you reach the last form field, STOP IMMEDIATELY without any further action.
@@ -221,13 +199,14 @@ async def main():
     **Steps**:  
     1. Navigate to {job_url}. Wait 2s. Click "Apply" if present.  
     2. **Fill Fields**:  
-       - **Personal Info**: Use {personal_details} for standard fields (name, email, etc.).
-       - **Open-Ended Questions**:
-           - Answer using {cv_content} ( 4-5 sentences).
+       - **Personal Info**: Use {personal_details} for standard fields (name, email, etc.). Ensure you're filling in the correct input boxes.
        - **Dropdowns**: Call 'Select location from dropdown'.
-       - **Files**: Upload directly, call 'Upload a file directly without opening file picker'.  Never click on file upload button.  
-           - Resume: {resume_path}  
-           - Cover Letter: {coverLetter_path} (if exists).  
+    - **Files**: Upload directly, call 'Upload a file directly without opening file picker'. Never click on file upload button.  
+        - Resume: {resume_path}  
+        - Cover Letter: {coverLetter_path} (if exists).
+    - **Open-Ended Questions**:
+           - For user experience related questions, provide detailed, thoughtful answers in 4-5 complete sentences drawing from {cv_content}. 
+           - For all other questions, use relevant information from {cv_content}.  
     3. **Radio Buttons**: Call "Select radio button safely".
     4. **Checkboxes**: Click first matching option (e.g., "Accept Terms").  
     5. **On Error**: Call `"Ask user for information"` for missing data.  
@@ -235,6 +214,7 @@ async def main():
     **Quality Control**:
     - Avoid generic responses like "Interested in [Company]".
     - Use full sentences and professional tone.
+    - After each field is filled, verify it contains the correct information.
 
     **Final Action**: When no more fields are visible below the last filled field, STOP COMPLETELY.
             """  
@@ -264,7 +244,7 @@ async def main():
                 browser=browser,
                 browser_context=context,
                 available_file_paths=available_file_paths,
-                max_actions_per_step=5,
+                max_actions_per_step=1,
                 
             )
             
@@ -305,9 +285,9 @@ async def main():
 
 
         # Save as JSON file
-        output_file = Path('agent_output.json')
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(result_data, f, cls=CustomEncoder, indent=4, ensure_ascii=False)
+        #output_file = Path('output_agent.json')
+        #with open(output_file, 'w', encoding='utf-8') as f:
+        #    json.dump(result_data, f, cls=CustomEncoder, indent=4, ensure_ascii=False)
 
 
 if __name__ == '__main__':

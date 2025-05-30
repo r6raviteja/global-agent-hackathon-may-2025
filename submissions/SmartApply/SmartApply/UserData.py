@@ -1,0 +1,20 @@
+personal_details = {
+        "Email": "r2raviteja@gmail.com",
+        "First name": "Raviteja",
+        "Last name": "Rachamadugu",
+        "Phone number": "15216442399",
+        "Language": "English",
+        "City": "Munich",
+        "State": "Germany",
+        "Zip / Postal Code": None,
+        "Country": "Germany",
+        "Salary":"60000",
+        "Notice period":"1 month",
+        "work permission":"valid Work Permit",
+        "Relocation":"Yes",
+        "LinkedIn profile": "https://www.linkedin.com/in/rraviteja/",
+        "github":"https://github.com/r6raviteja/utej",
+        "Portfolio":"https://rraviteja.in",
+        "Where did you here about us":"Linkedin",
+        
+    }

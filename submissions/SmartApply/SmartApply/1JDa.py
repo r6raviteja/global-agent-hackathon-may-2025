@@ -33,6 +33,7 @@ def clean_html_content(html_content):
         Organize it into clear sections if possible (e.g., About, Responsibilities, Requirements, Benefits).
         Keep only the essential information and format it in a clean, readable way.
         
+
         Text to clean:
         {text}
         """
@@ -116,14 +117,15 @@ def main():
         
         # Get jobs from Remotive API
         logger.info("Fetching jobs from Remotive API...")
-        jobs_data = get_jobs_from_remotive(search="Data Analyst",limit=5)
+        jobs_data = get_jobs_from_remotive(search="Data Analyst",limit=50)
         logger.info(f"Found {len(jobs_data)} jobs")
         
         # Save raw data
+        """
         with open('raw_remotive_jobs_data.json', 'w', encoding='utf-8') as f:
             json.dump(jobs_data, f, indent=2, ensure_ascii=False)
         logger.info("Saved raw jobs data to raw_remotive_jobs_data.json")
-        
+        """
         # Process jobs
         processed_jobs = process_jobs(jobs_data)
         
