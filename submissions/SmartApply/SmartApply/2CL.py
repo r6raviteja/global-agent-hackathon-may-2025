@@ -2,11 +2,11 @@ import os
 import json
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
-openai_api_key = os.environ["OPENAI_API_KEY"]
-OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
-os.environ["GROQ_API_KEY"]
-os.environ["OPENROUTER_API_KEY"]
-os.environ["FIRECRAWL_API_KEY"]
+#openai_api_key = os.environ["OPENAI_API_KEY"]
+#OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
+#os.environ["GROQ_API_KEY"]
+#os.environ["OPENROUTER_API_KEY"]
+#os.environ["FIRECRAWL_API_KEY"]
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders.csv_loader import CSVLoader
@@ -181,7 +181,7 @@ def CL_gen(num_job):
     with open("CV.txt", 'w', encoding='utf-8') as f:
             f.write(CV)
     df.at[num_job, "Coverletter"] = cover_letter.content
-    df.to_csv("JobsData2.csv",index=False)
+    df.to_csv("JobsData.csv",index=False)
 
     from agno.agent import Agent
     from agno.models.openai import OpenAIChat
@@ -241,11 +241,11 @@ num_job = 0
 print(num_job)
 num_job = int(sys.argv[1]) if len(sys.argv) > 1 else 0  # Default to 0 if not provided
 
-#print(df["score"].iloc[num_job])
+print(df["score"].iloc[num_job])
 if (df["score"].iloc[num_job]>=60):
     CL_gen(num_job)
 
 df.to_csv("JobsData.csv",index=False)
 df2 = df[['Title', 'Company', 'Location', "score","reason","recruiter_email", 'Description',"Coverletter"]]
-df2 = df2.replace(',', '', regex=True)
-df2.to_csv("JobsData2.csv",index=False)
+#df2 = df2.replace(',', '', regex=True)
+#df2.to_csv("JobsData2.csv",index=False)

@@ -1,11 +1,15 @@
+import os
 from langchain.agents import create_openai_functions_agent, AgentExecutor
 from langchain import hub
 from langchain_openai import ChatOpenAI
 from composio_langchain import ComposioToolSet, Action, App
-llm = ChatOpenAI()
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
+
 prompt = hub.pull("hwchase17/openai-functions-agent")
 
-composio_toolset = ComposioToolSet(api_key="kc73e496wa2vqwzthdtta")
+COMPOSIO_API_KEY = os.environ["COMPOSIO_API_KEY"]
+composio_toolset = ComposioToolSet(api_key= COMPOSIO_API_KEY)
 tools = composio_toolset.get_tools(actions=['GMAIL_SEND_EMAIL'])
 
 import pandas as pd
@@ -88,6 +92,7 @@ recruiter_email_agent = Agent(
 response = recruiter_email_agent.run(f"{JD}")
 recruiter_email_agent.print_response(response.content)
 
+llm = ChatOpenAI()
 agent = create_openai_functions_agent(llm, tools, prompt)
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 task = " mail to "+recr_email+"; attach file : CL.txt "+response.content

@@ -1,4 +1,59 @@
-title: Senior Data Engineer
-company: Hatch
+title: Data Analyst
+company: Freed
 location: USA
-description: HATCH https://www.usehatchapp.com/ Senior Data Engineer MUST BE BASED IN THE US/Canada- (CST, EST ) About Hatch At Hatch, we’re building AI that doesn’t just assist behind the scenes; it converses with customers out in the wild. Backed by Y Combinator and top-tier investors like Bessemer and NextView, we’re scaling fast, doubling revenue year over year, and looking for A players to help us cement our place as the category leader in AI for customer engagement. About the Role We are looking for a skilled Senior Data Engineer to join our growing data team. You will be responsible for building, optimizing, and maintaining data pipelines and architectures that support our analytics, reporting, and AI initiatives. The ideal candidate is experienced in data integration, data warehousing, and working with large-scale data processing systems. As a Data Engineer , you’ll join a team that’s pushing the boundaries of AI, systems design, and user experience. This role is for builders who think at scale, lead by example, and thrive in a fast-paced, high-growth environment. Key Responsibilities Design, construct, test, and maintain scalable data pipelines and ETL processes. Build and maintain data architectures (e.g., databases, data lakes, warehouses). Collaborate with data analysts, data scientists, and software engineers to support data needs. Optimize data workflows for performance and reliability. Implement data quality, validation, and governance practices. Integrate data from various sources, including APIs, databases, and flat files. Maintain up-to-date documentation for data pipelines and schemas. Monitor and troubleshoot pipeline performance and failures. What We're Looking For 5+ years of data engineering experience, including significant time as a senior/staff engineer. Proficiency in SQL and at least one programming language (e.g., Python,Golang, Scala). Experience with ETL tools (e.g., Apache Airflow, Talend, DBT). Familiarity with cloud platforms (AWS or GCP) and services like S3, Redshift, BigQuery, or Snowflake. Experience with distributed data processing frameworks (e.g., Apache Spark, Kafka). Strong understanding of data modeling, warehousing, and data governance best practices. Deep expertise in one or more of the following: Python, Go, or another backend language; experience with microservices is a plus. Solid understanding of databases (PostgreSQL, Redis, etc.) and data architecture. Experience working closely with or supporting ML and LLM-powered systems in production. Familiarity with ML model inference, vector databases, prompt engineering, and API integrations for LLMs. Excellent collaboration and communication skills — you bring others along and elevate those around you. Product-oriented mindset — you care deeply about building systems that meet real user needs. Experience mentoring engineers and leading technical projects or cross-team initiatives. Nice to Have Experience working in a fast-growing startup environment. Knowledge of CI/CD for data pipelines. Familiarity with containerization (Docker, Kubernetes) and orchestration tools. What We Offer Competitive salary and equity Remote (Eastern or Central Time Zone required) OR Hybrid work environment (3 days/week in our NYC office) Medical, dental, and vision benefits 401(k) plan Flexible PTO Opportunity to build at the ground floor of a high-growth, mission-driven company Not offering sponsorship Why Hatch Shape the future of AI-driven customer service Build alongside founders and leaders who value speed, ownership, and ambition Solve hard problems that impact real businesses and customers Join a team of builders who care about great engineering, fast execution, and each other
+description: **Structured Job Description:**
+
+---
+
+### About Freed
+- **Company Background:** Freed addresses clinician overwork, burnout, and high turnover.
+- **Mission:** Use AI and strong execution to create products that improve clinician happiness.
+- **Achievements:** 
+  - Acquired 10,000+ clinicians in 1 year.
+  - Exceeded $11M ARR.
+  - Generate 70,000 patient notes daily; over 1 million monthly.
+  - Made thousands of clinicians happier.
+- **Funding & Growth:** Backed by Sequoia; expanding product offerings including patient-facing assistants, insights, and EHR integrations used by thousands of clinicians and millions of patients.
+
+---
+
+### About the Role
+- **Position:** Data Analyst in the Product team.
+- **Goal:** Support a data-driven culture, enable better decision-making.
+- **Responsibilities:**
+  - Work with product managers, engineers, data analysts, and stakeholders.
+  - Uncover and deliver insights.
+  - Build dashboards and track metrics.
+  - Design experiments and analyze results.
+  - Understand user context and team goals.
+  - Contribute to improving clinician happiness.
+
+---
+
+### Impact & Responsibilities
+- Guide teams to make data-informed decisions.
+- Create metrics, dashboards, and experiments to understand product and clinician behaviors.
+- Collaborate with stakeholders for analysis and insights.
+- Work with engineers to improve data models, transparency, and accessibility.
+
+---
+
+### Requirements
+- 2-4 years of experience in data analytics or related field.
+- Proficiency in SQL and data visualization tools.
+- Comfort with scripting languages (Python preferred, R acceptable).
+- Strong understanding of experiment design and A/B testing.
+- Excellent collaboration and communication skills.
+- Ability to work independently, prioritize, handle high ambiguity.
+- Deep curiosity, attention to detail, proactive attitude.
+
+---
+
+### Benefits & Perks
+- Competitive salary and equity.
+- Immediate impact opportunity.
+- Medical, dental, vision benefits (US-based employees).
+- Unlimited PTO.
+- Company-sponsored annual retreats.
+
+---

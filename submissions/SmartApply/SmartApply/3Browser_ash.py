@@ -23,18 +23,22 @@ _ = load_dotenv(find_dotenv())
 logger = logging.getLogger(__name__)
 # Add parent directory to system path if needed
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+chrome_instance_path = os.environ["CHROME_PATH"]
+print(chrome_instance_path)
+
 # Initialize Browser and Controller
 browser = Browser(
     config=BrowserConfig(
         headless=False,
-        chrome_instance_path=r'C:\Program Files\Google\Chrome\Application\chrome.exe',
+        chrome_instance_path= chrome_instance_path, #  r'C:\Program Files\Google\Chrome\Application\chrome.exe',
         ))
 controller = Controller()
 
 import pandas as pd
 df = pd.read_csv(r"JobsData.csv")
 num_job = 0
-num_job = int(sys.argv[1]) if len(sys.argv) > 1 else 6  # Default to 0 if not provided
+num_job = int(sys.argv[1]) if len(sys.argv) > 1 else 0  # Default to 0 if not provided
 
 job_url = df["Apply_URL"].iloc[num_job]
 
@@ -263,10 +267,11 @@ async def main():
         model_thoughts = result.model_thoughts()
         action_results = result.action_results()
 
+
         # Create a dictionary with all the data
         result_data = {
             "Final Result": final_result,
-            "Is Done": is_done,
+            "is_done": is_done,
             "Has Errors": has_errors,
             "Model Thoughts": model_thoughts,
             "Action Results": action_results,
@@ -285,10 +290,25 @@ async def main():
 
 
         # Save as JSON file
-        #output_file = Path('output_agent.json')
-        #with open(output_file, 'w', encoding='utf-8') as f:
-        #    json.dump(result_data, f, cls=CustomEncoder, indent=4, ensure_ascii=False)
+        output_file = Path('output_agent.json')
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(result_data, f, cls=CustomEncoder, indent=4, ensure_ascii=False)
 
 
 if __name__ == '__main__':
     asyncio.run(main())
+    
+    # Step 1: Get job index (from CLI or default to 0)
+    #num_job = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+    # Step 2: Load output_agent.json
+    with open("output_agent.json", "r", encoding="utf-8") as f:
+        result_data = json.load(f)
+    df = pd.read_csv("JobsData.csv")
+    is_done = result_data.get("is_done", "")
+
+    if is_done == True:
+        df.loc[num_job, "status"] = "Applied"
+        # Reset index if needed
+        df = df.reset_index(drop=True)
+        # Save the updated DataFrame
+        df.to_csv("JobsData.csv", index=False)

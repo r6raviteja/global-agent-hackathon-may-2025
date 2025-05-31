@@ -2,7 +2,7 @@ import pandas as pd
 import subprocess
 
 df = pd.read_csv("JobsData.csv")
-num_job =  4 -2  # len(df)-1 #
+num_job =  2 -2  # len(df)-1 #
 
 l = len(df)
 if num_job > l:
