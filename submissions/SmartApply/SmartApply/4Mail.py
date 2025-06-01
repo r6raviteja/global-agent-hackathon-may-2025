@@ -27,7 +27,8 @@ recr_email = df["recruiter_email"].iloc[num_job]
 
 if len(str(recr_email)) < 4:
     recr_email = "r2raviteja@gmail.com"
-JD = df["Combined"].iloc[num_job]
+#JD = df["Combined"].iloc[num_job]
+JD = df["Company"].iloc[num_job] + " " + df["Title"].iloc[num_job] + "\n\n" + df["Description"].iloc[num_job]
 
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat

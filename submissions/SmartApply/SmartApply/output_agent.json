@@ -1,29 +1,65 @@
 {
-    "Final Result": "The application was successfully submitted. A success message is displayed on the screen.",
+    "Final Result": "The application was successfully submitted!",
     "is_done": true,
     "Has Errors": false,
     "Model Thoughts": [
         {
-            "evaluation_previous_goal": "The application form is loaded and pre-filled.",
-            "memory": "The application form is loaded. Need to ask user to confirm the information before submitting. Current step: 1/100",
-            "next_goal": "Ask the user to verify the information and type 'I confirm'."
+            "evaluation_previous_goal": "The application page is loaded and ready for user verification.",
+            "memory": "Waiting for user confirmation to proceed with the application submission.",
+            "next_goal": "Ask user for verification and confirmation."
         },
         {
-            "evaluation_previous_goal": "User confirmed the information and the instruction is to submit the application.",
-            "memory": "User confirmed the information. Ready to submit the application and wait for a success message. Current step: 2/100",
-            "next_goal": "Submit application, wait 3 seconds, and check for a success message."
+            "evaluation_previous_goal": "The application was submitted, but confirmation is pending.",
+            "memory": "Waiting for 3 seconds to check for a success message.",
+            "next_goal": "Wait and then extract content to find a success message."
         },
         {
-            "evaluation_previous_goal": "The application was successfully submitted.",
-            "memory": "The application was submitted after user confirmation. A success message is displayed on the screen. Current step: 3/100",
-            "next_goal": "Complete the task since the application was successfully submitted."
+            "evaluation_previous_goal": "Waiting for 3 seconds is complete.",
+            "memory": "Waited 3 seconds to check for a success message.",
+            "next_goal": "Extract content to find a success message."
+        },
+        {
+            "evaluation_previous_goal": "The application was submitted, but confirmation is pending and the user needs to verify the information.",
+            "memory": "Still waiting for user confirmation to proceed with the application submission.",
+            "next_goal": "Ask user for verification and confirmation."
+        },
+        {
+            "evaluation_previous_goal": "User confirmed the information.",
+            "memory": "User confirmed the information by typing 'I confirm'.",
+            "next_goal": "Submit the application and check for a success message."
+        },
+        {
+            "evaluation_previous_goal": "The application was submitted after user confirmation and the success message is visible on the screen.",
+            "memory": "The user confirmed the data, the application was submitted and a success message was displayed.",
+            "next_goal": "Complete the task."
         }
     ],
     "Action Results": [
         {
             "is_done": false,
             "success": null,
-            "extracted_content": "I confirm",
+            "extracted_content": "submit",
+            "error": null,
+            "include_in_memory": false
+        },
+        {
+            "is_done": false,
+            "success": null,
+            "extracted_content": "🕒  Waiting for 3 seconds",
+            "error": null,
+            "include_in_memory": true
+        },
+        {
+            "is_done": false,
+            "success": null,
+            "extracted_content": "📄  Extracted from page\n: ```json\n{\n  \"success_message\": null,\n  \"confirmation_notification\": null\n}\n```\n",
+            "error": null,
+            "include_in_memory": true
+        },
+        {
+            "is_done": false,
+            "success": null,
+            "extracted_content": "confirm",
             "error": null,
             "include_in_memory": false
         },
@@ -37,7 +73,7 @@
         {
             "is_done": true,
             "success": true,
-            "extracted_content": "The application was successfully submitted. A success message is displayed on the screen.",
+            "extracted_content": "The application was successfully submitted!",
             "error": null,
             "include_in_memory": false
         }

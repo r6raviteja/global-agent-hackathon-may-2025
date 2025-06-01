@@ -10,7 +10,7 @@ import sys
 import pandas as pd
 def score(num_job):
     with open("JD.txt", "w", encoding="utf-8") as f:
-        f.write(df["Combined"].iloc[num_job])
+        f.write(df["Description"].iloc[num_job])
 
     def load_file(file_path: str):
         """
@@ -62,6 +62,7 @@ def score(num_job):
             "Compare the provided Resume (CV) and Job Description (JD).",
             "Analyze relevant aspects like skills, experience, education, certifications, and job requirements.",
             "Score the match between 0 and 100, where 100 means 'perfect match' and 0 means 'no match'.",
+            "if score <60 not recommended to apply, score 60-75 is good, score 75-100 is excellent",
             "Consider how closely the resume's skills and experience align with the JD requirements.",
             "If important skills or experiences are missing, reduce the score proportionally.",
             "Return the output strictly as a JSON object with the following format: {\"match_score\": float, \"reasoning\": string}",
@@ -163,12 +164,15 @@ def score(num_job):
 
     df.to_csv("JobsData.csv",index=False)
     df2 = df[['Title', 'Company', 'Location', "score","reason","recruiter_email", 'Description',"Coverletter"]]
-    df2 = df2.replace(',', '', regex=True)
-    df2.to_csv("JobsData2.csv",index=False)
+    #df2 = df2.replace(',', '', regex=True)
+    #df2.to_csv("JobsData2.csv",index=False)
 
 df = pd.read_csv(r"JobsData.csv")
-num_job = 0
 num_job = int(sys.argv[1]) if len(sys.argv) > 1 else 0  # Default to 0 if not provided
 
-#for i in range(2):
-score(num_job)
+if len(sys.argv) > 1:
+    num_job = int(sys.argv[1])
+    score(num_job)
+else:
+    for i in range(len(df)):
+        score(i)

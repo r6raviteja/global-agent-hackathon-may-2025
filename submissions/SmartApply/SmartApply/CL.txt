@@ -1,21 +1,18 @@
-Raviteja R  
-r2raviteja@gmail.com  
-+49 15216 442399  
-Munich, Germany  
+Raviteja R, r2raviteja@gmail.com, +49 15216 442399, Munich, Germany
 
-Date: May 31, 2025
+June 02, 2025
 
 Dear Hiring Manager,
 
-I am excited to apply for the Data Analyst position at Freed, a company whose mission to improve clinician happiness through innovative AI-driven solutions deeply resonates with my passion for leveraging data to create meaningful impact. With over five years of experience in data analysis, visualization, and automation, I am eager to contribute my expertise to support Freed's ambitious goals of transforming healthcare with data-driven insights.
+I am excited to submit my application for the Data Analyst role within Freed’s innovative product team. With over five years of experience in data analysis, dashboard development, and experimentation, I am eager to contribute my skills to support Freed’s mission of improving clinician happiness through impactful data insights and AI solutions. The opportunity to work at a forward-thinking healthcare company that leverages AI to transform medical documentation deeply resonates with my passion for using data to drive meaningful change.
 
-Throughout my career, I have demonstrated success in developing scalable analytics solutions that drive strategic decision-making. At Allianz Partners, I transformed manual KPI reports into dynamic dashboards using Power BI, automating data pipelines in Python and SQL that reduced reporting workload by 70%. Additionally, I engineered dashboards supporting 119 business units across regions—instrumental in guiding high-level executive strategies for a portfolio valued at $2.8 billion. My earlier role at Rapido involved designing and executing large-scale A/B tests with 200,000 users, resulting in a 5% rise in rides per customer, and improving customer satisfaction scores from 2.8 to 3.9 through NLP-driven feedback analysis. These experiences highlight my proficiency in data manipulation, visualization, experiment design, and stakeholder collaboration—skills that directly align with Freed’s needs.
+In my current role at Allianz Partners, I transformed manual KPI reports into dynamic, automated Power BI dashboards, reducing reporting workload by 70%. I developed ETL pipelines in Python and SQL to clean and unify unstructured Salesforce and financial data across 119 business units, enabling strategic decisions for a $2.8 billion portfolio. Previously, at Rapido, I designed and executed large-scale A/B tests with 200,000 users that boosted ride-per-customer by 5%, and I led customer segmentation projects that increased engagement metrics by 15%. My expertise in handling messy data, combined with my hands-on experience in experiment design and impact analysis, aligns well with Freed’s focus on data-driven decision-making.
 
-My technical background—including expertise in SQL, Python, Power BI, and NLP—equips me to uncover insights that inform product and operational decisions. I have led cross-functional collaborations to optimize key metrics, built customer segmentation models, and contributed to scaling startups from early growth to market leaders. My hands-on experience with A/B testing and experiment analysis complements Freed's focus on understanding clinician and patient behaviors, while my familiarity with Generative AI and NLP showcases my proactive approach to adopting cutting-edge technologies.
+Furthermore, my proficiency in SQL, Python, and visualization tools like Power BI and Metabase equips me to collaborate effectively with cross-functional teams to translate complex data into actionable insights. My background in building scalable ETL pipelines, conducting hypothesis testing, and crafting dashboards directly supports Freed’s goal to enhance transparency and decision-making within healthcare products. I am confident my analytical skills, coupled with my curiosity about healthcare innovation, will add value to your team.
 
-What excites me most about Freed is its commitment to using AI for tangible healthcare improvements and its rapid growth backed by Sequoia. I share a deep curiosity for innovative solutions that reduce burnout and improve clinician well-being, and I am motivated by the opportunity to use my analytical skills to help shape products that positively impact millions of lives. I am confident my background, technical skills, and passion for healthcare analytics make me a valuable addition to your team.
+I am particularly drawn to Freed’s commitment to improving clinician experiences with AI-enabled tools and its rapid growth trajectory backed by Sequoia Capital. The chance to apply my data expertise in a healthcare setting, where I can directly influence workflows and patient outcomes, is highly motivating. I share Freed’s passion for leveraging technology to make healthcare more efficient, and I am excited about the opportunity to contribute to your expanding product suite with innovative analytics.
 
-Thank you for considering my application. I would welcome the opportunity to discuss how I can contribute to Freed’s continued success and help deliver innovative solutions to clinicians worldwide.
+Thank you for considering my application. I look forward to the possibility of discussing how my experience and enthusiasm can contribute to Freed’s mission. I am eager to bring my skills in data analysis, experimentation, and storytelling to your dynamic team.
 
 Sincerely,  
 Raviteja R

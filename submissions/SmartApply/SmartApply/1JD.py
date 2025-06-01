@@ -6,6 +6,8 @@ import json
 import re
 from bs4 import BeautifulSoup
 import openai
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -45,7 +47,7 @@ def clean_html_content(html_content):
                 Clean and structure the following job description text, removing any remaining HTML artifacts or unwanted formatting.
                 Organize it into clear sections if possible (e.g., About, Responsibilities, Requirements, Benefits).
                 Keep only the essential information and format it in a clean, readable way.
-                
+                Don't write Here is the cleaned and structured job description. Just return the cleaned and structured job description.
 
                 Text to clean:
                 {text}
@@ -128,7 +130,7 @@ def main():
     try:
         # Get jobs from Remotive API
         logger.info("Fetching jobs from Remotive API...")
-        jobs_data = get_jobs_from_remotive(search="Data Analyst",limit=25)
+        jobs_data = get_jobs_from_remotive(search="Data Analyst",limit=50)
         logger.info(f"Found {len(jobs_data)} jobs")
         
         # Save raw data
@@ -148,7 +150,7 @@ def main():
             + "location: " + df["Location"].astype(str) + "\n"
             + "description: " + df["Description"].astype(str)
         )
-        df["Coverletter"] = None
+        df["Coverletter"] = " "
         df["recruiter_email"] = None
         df["score"] = None
         df["reason"] = None
@@ -233,8 +235,19 @@ df = df[df['Apply_Source'] != 'greenhouse']
 # Step 2: Define custom sort order
 priority = ['ashbyhq', 'workable']
 
+# Function to assign sort key
+def sort_key(x):
+    if x in priority:
+        return (priority.index(x), x)
+    else:
+        return (len(priority), x)  # all others go after
+
+# Step 3: Sort the filtered list using the custom key
+df = df.sort_values(by='Apply_Source', key=lambda col: col.map(sort_key))
+
 # filter jobs
-df = df[df['Apply_Source'] == 'ashbyhq'].head(1)
+#df = df[df['Apply_Source'] == 'ashbyhq'].head(3)
+df = df.head(10)
 
 print("Total jobs: "+str(len(df)))
 
@@ -248,15 +261,14 @@ df["Combined"] = (
         )
 
 
-# Function to assign sort key
-def sort_key(x):
-    if x in priority:
-        return (priority.index(x), x)
-    else:
-        return (len(priority), x)  # all others go after
+# Add a column to track the number of jobs
+df['Job_ID'] = range(0, len(df))
 
-# Step 3: Sort the filtered list using the custom key
-df = df.sort_values(by='Apply_Source', key=lambda col: col.map(sort_key))
+
+df = df[['Job_ID', 'Title', 'Company', 'Location',  
+         'Posted', 'Apply_Source','Apply_URL', 'recruiter_email', 
+         'score', 'reason', 'status', 'Description','Coverletter']]
+# Job_Type,Apply_Source,Via,Qualifications,Salary,Combined,
 
 # Reset index if needed
 df = df.reset_index(drop=True)

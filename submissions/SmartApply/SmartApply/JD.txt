@@ -1,59 +1,29 @@
-title: Data Analyst
-company: Freed
-location: USA
-description: **Structured Job Description:**
+**About Freed**  
+Freed is a company focused on improving clinician happiness by combining clinician love with AI technology. The company automates medical documentation via an AI scribe and has rapidly expanded its user base, acquiring 10,000 paying clinicians and exceeding $11M ARR within a year. Freed generates 70,000 patient notes daily and is building additional products like patient-facing assistants, patient insights, and EHR integrations, used by thousands of clinicians and millions of patients. Backed by Sequoia Capital, Freed is expanding its product offerings to include new healthcare tools.
 
----
+**Role Overview**  
+We are seeking a Data Analyst to join the Product team, supporting a data-driven company culture. The role involves working closely with product managers, engineers, data analysts, and stakeholders to interpret data, generate insights, build dashboards, track metrics, design experiments, and analyze outcomes. The goal is to support decision-making and enhance clinician happiness, working in a collaborative, fast-paced environment.
 
-### About Freed
-- **Company Background:** Freed addresses clinician overwork, burnout, and high turnover.
-- **Mission:** Use AI and strong execution to create products that improve clinician happiness.
-- **Achievements:** 
-  - Acquired 10,000+ clinicians in 1 year.
-  - Exceeded $11M ARR.
-  - Generate 70,000 patient notes daily; over 1 million monthly.
-  - Made thousands of clinicians happier.
-- **Funding & Growth:** Backed by Sequoia; expanding product offerings including patient-facing assistants, insights, and EHR integrations used by thousands of clinicians and millions of patients.
+**Key Responsibilities and Impact**  
+- Guide teams to make data-informed decisions  
+- Create metrics, dashboards, and experiments to understand product and clinician behaviors  
+- Collaborate with stakeholders to translate needs into analysis and insights  
+- Work with engineers to improve data models, transparency, and accessibility  
 
----
+**Requirements**  
+- 2-4 years of experience in data analytics or related fields  
+- Proficiency in SQL and data visualization tools  
+- Comfort with scripting languages for data analysis (Python preferred, R acceptable)  
+- Strong understanding of experiment design and A/B testing  
+- Excellent collaboration and communication skills  
+- Ability to turn findings into actionable recommendations  
+- Proactive, independent work style with strong prioritization skills  
+- Capable of handling messy data and working through ambiguity  
+- Deep curiosity, attention to detail, and bias towards action
 
-### About the Role
-- **Position:** Data Analyst in the Product team.
-- **Goal:** Support a data-driven culture, enable better decision-making.
-- **Responsibilities:**
-  - Work with product managers, engineers, data analysts, and stakeholders.
-  - Uncover and deliver insights.
-  - Build dashboards and track metrics.
-  - Design experiments and analyze results.
-  - Understand user context and team goals.
-  - Contribute to improving clinician happiness.
-
----
-
-### Impact & Responsibilities
-- Guide teams to make data-informed decisions.
-- Create metrics, dashboards, and experiments to understand product and clinician behaviors.
-- Collaborate with stakeholders for analysis and insights.
-- Work with engineers to improve data models, transparency, and accessibility.
-
----
-
-### Requirements
-- 2-4 years of experience in data analytics or related field.
-- Proficiency in SQL and data visualization tools.
-- Comfort with scripting languages (Python preferred, R acceptable).
-- Strong understanding of experiment design and A/B testing.
-- Excellent collaboration and communication skills.
-- Ability to work independently, prioritize, handle high ambiguity.
-- Deep curiosity, attention to detail, proactive attitude.
-
----
-
-### Benefits & Perks
-- Competitive salary and equity.
-- Immediate impact opportunity.
-- Medical, dental, vision benefits (US-based employees).
-- Unlimited PTO.
-- Company-sponsored annual retreats.
-
----
+**Benefits**  
+- Competitive salary and equity  
+- Opportunity to make an immediate impact  
+- Medical, dental, and vision benefits (US-based employees)  
+- Unlimited PTO  
+- Company-sponsored annual retreats

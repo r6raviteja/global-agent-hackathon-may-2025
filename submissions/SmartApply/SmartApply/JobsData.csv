@@ -1,135 +1,536 @@
-Title,Company,Location,Description,Posted,Job_Type,Apply_Source,Apply_URL,Via,Qualifications,Salary,Combined,Coverletter,recruiter_email,score,reason,status
-Data Analyst,Freed,USA,"**Structured Job Description:**
+Job_ID,Title,Company,Location,Posted,Apply_Source,Apply_URL,recruiter_email,score,reason,status,Description,Coverletter
+0,Data Analyst,Freed,USA,2025-05-29T04:51:06,ashbyhq,https://jobs.ashbyhq.com/freed/57c33581-a4c1-475a-bef4-f0dc2f3f72c1?utm_source=remotive.com&ref=remotive.com,,88.0,"The candidate demonstrates strong proficiency in SQL, Python, data visualization, and experiment design, aligning well with the JD's requirements. Their experience with collaborative analytics, working with messy data, and supporting decision-making fits the role's need for a proactive, detail-oriented analyst. Slight gaps in specific healthcare experience and familiarity with clinical data do not significantly detract from their strong overall fit.",Not Applied,"**About Freed**  
+Freed is a company focused on improving clinician happiness by combining clinician love with AI technology. The company automates medical documentation via an AI scribe and has rapidly expanded its user base, acquiring 10,000 paying clinicians and exceeding $11M ARR within a year. Freed generates 70,000 patient notes daily and is building additional products like patient-facing assistants, patient insights, and EHR integrations, used by thousands of clinicians and millions of patients. Backed by Sequoia Capital, Freed is expanding its product offerings to include new healthcare tools.
+
+**Role Overview**  
+We are seeking a Data Analyst to join the Product team, supporting a data-driven company culture. The role involves working closely with product managers, engineers, data analysts, and stakeholders to interpret data, generate insights, build dashboards, track metrics, design experiments, and analyze outcomes. The goal is to support decision-making and enhance clinician happiness, working in a collaborative, fast-paced environment.
+
+**Key Responsibilities and Impact**  
+- Guide teams to make data-informed decisions  
+- Create metrics, dashboards, and experiments to understand product and clinician behaviors  
+- Collaborate with stakeholders to translate needs into analysis and insights  
+- Work with engineers to improve data models, transparency, and accessibility  
+
+**Requirements**  
+- 2-4 years of experience in data analytics or related fields  
+- Proficiency in SQL and data visualization tools  
+- Comfort with scripting languages for data analysis (Python preferred, R acceptable)  
+- Strong understanding of experiment design and A/B testing  
+- Excellent collaboration and communication skills  
+- Ability to turn findings into actionable recommendations  
+- Proactive, independent work style with strong prioritization skills  
+- Capable of handling messy data and working through ambiguity  
+- Deep curiosity, attention to detail, and bias towards action
+
+**Benefits**  
+- Competitive salary and equity  
+- Opportunity to make an immediate impact  
+- Medical, dental, and vision benefits (US-based employees)  
+- Unlimited PTO  
+- Company-sponsored annual retreats","Raviteja R, r2raviteja@gmail.com, +49 15216 442399, Munich, Germany
+
+June 02, 2025
+
+Dear Hiring Manager,
+
+I am excited to submit my application for the Data Analyst role within Freed’s innovative product team. With over five years of experience in data analysis, dashboard development, and experimentation, I am eager to contribute my skills to support Freed’s mission of improving clinician happiness through impactful data insights and AI solutions. The opportunity to work at a forward-thinking healthcare company that leverages AI to transform medical documentation deeply resonates with my passion for using data to drive meaningful change.
+
+In my current role at Allianz Partners, I transformed manual KPI reports into dynamic, automated Power BI dashboards, reducing reporting workload by 70%. I developed ETL pipelines in Python and SQL to clean and unify unstructured Salesforce and financial data across 119 business units, enabling strategic decisions for a $2.8 billion portfolio. Previously, at Rapido, I designed and executed large-scale A/B tests with 200,000 users that boosted ride-per-customer by 5%, and I led customer segmentation projects that increased engagement metrics by 15%. My expertise in handling messy data, combined with my hands-on experience in experiment design and impact analysis, aligns well with Freed’s focus on data-driven decision-making.
+
+Furthermore, my proficiency in SQL, Python, and visualization tools like Power BI and Metabase equips me to collaborate effectively with cross-functional teams to translate complex data into actionable insights. My background in building scalable ETL pipelines, conducting hypothesis testing, and crafting dashboards directly supports Freed’s goal to enhance transparency and decision-making within healthcare products. I am confident my analytical skills, coupled with my curiosity about healthcare innovation, will add value to your team.
+
+I am particularly drawn to Freed’s commitment to improving clinician experiences with AI-enabled tools and its rapid growth trajectory backed by Sequoia Capital. The chance to apply my data expertise in a healthcare setting, where I can directly influence workflows and patient outcomes, is highly motivating. I share Freed’s passion for leveraging technology to make healthcare more efficient, and I am excited about the opportunity to contribute to your expanding product suite with innovative analytics.
+
+Thank you for considering my application. I look forward to the possibility of discussing how my experience and enthusiasm can contribute to Freed’s mission. I am eager to bring my skills in data analysis, experimentation, and storytelling to your dynamic team.
+
+Sincerely,  
+Raviteja R"
+1,Revenue Operations Analyst,Nivoda,South Africa,2025-04-13T08:51:17,ashbyhq,https://jobs.ashbyhq.com/nivoda/f6e11fb1-c54d-4456-8cf5-0ec93ea8d3e4?utm_source=remotive.com&ref=remotive.com,,88.0,"The candidate's extensive experience in data analysis, dashboard development, automation, and scaling operations aligns well with the JD's requirements for a Revenue Operations Analyst role. Strong technical skills in SQL, Python, BI tools, and experience with process improvements and cross-functional collaboration support an excellent match. While the JD emphasizes sales and revenue-specific analytics, the candidate's background in customer success and product analytics complements this well, leading to a high score.",Not Applied,"**Structured Job Description**
 
 ---
 
-### About Freed
-- **Company Background:** Freed addresses clinician overwork, burnout, and high turnover.
-- **Mission:** Use AI and strong execution to create products that improve clinician happiness.
-- **Achievements:** 
-  - Acquired 10,000+ clinicians in 1 year.
-  - Exceeded $11M ARR.
-  - Generate 70,000 patient notes daily; over 1 million monthly.
-  - Made thousands of clinicians happier.
-- **Funding & Growth:** Backed by Sequoia; expanding product offerings including patient-facing assistants, insights, and EHR integrations used by thousands of clinicians and millions of patients.
-
----
-
-### About the Role
-- **Position:** Data Analyst in the Product team.
-- **Goal:** Support a data-driven culture, enable better decision-making.
-- **Responsibilities:**
-  - Work with product managers, engineers, data analysts, and stakeholders.
-  - Uncover and deliver insights.
-  - Build dashboards and track metrics.
-  - Design experiments and analyze results.
-  - Understand user context and team goals.
-  - Contribute to improving clinician happiness.
-
----
-
-### Impact & Responsibilities
-- Guide teams to make data-informed decisions.
-- Create metrics, dashboards, and experiments to understand product and clinician behaviors.
-- Collaborate with stakeholders for analysis and insights.
-- Work with engineers to improve data models, transparency, and accessibility.
-
----
-
-### Requirements
-- 2-4 years of experience in data analytics or related field.
-- Proficiency in SQL and data visualization tools.
-- Comfort with scripting languages (Python preferred, R acceptable).
-- Strong understanding of experiment design and A/B testing.
-- Excellent collaboration and communication skills.
-- Ability to work independently, prioritize, handle high ambiguity.
-- Deep curiosity, attention to detail, proactive attitude.
-
----
-
-### Benefits & Perks
-- Competitive salary and equity.
-- Immediate impact opportunity.
-- Medical, dental, vision benefits (US-based employees).
-- Unlimited PTO.
-- Company-sponsored annual retreats.
-
----",2025-05-29T04:51:06,full_time,ashbyhq,https://jobs.ashbyhq.com/freed/57c33581-a4c1-475a-bef4-f0dc2f3f72c1?utm_source=remotive.com&ref=remotive.com,Remotive.com,,competitive salary and equity,"title: Data Analyst
-company: Freed
-location: USA
-description: **Structured Job Description:**
-
----
-
-### About Freed
-- **Company Background:** Freed addresses clinician overwork, burnout, and high turnover.
-- **Mission:** Use AI and strong execution to create products that improve clinician happiness.
-- **Achievements:** 
-  - Acquired 10,000+ clinicians in 1 year.
-  - Exceeded $11M ARR.
-  - Generate 70,000 patient notes daily; over 1 million monthly.
-  - Made thousands of clinicians happier.
-- **Funding & Growth:** Backed by Sequoia; expanding product offerings including patient-facing assistants, insights, and EHR integrations used by thousands of clinicians and millions of patients.
+### About Us
+- **Company:** Nivoda
+- **Growth:** Rapid expansion over the past 12 months, entering new regions.
+- **Focus:** Understanding customer needs, providing a seamless experience.
+- **Team Locations:** London, New York, Hong Kong, Mumbai, and other major cities worldwide.
+- **Industry:** Global jewellery marketplace.
+- **Vision:** Bold, innovative, relentlessly pursuing excellence, transforming a traditional industry.
 
 ---
 
 ### About the Role
-- **Position:** Data Analyst in the Product team.
-- **Goal:** Support a data-driven culture, enable better decision-making.
-- **Responsibilities:**
-  - Work with product managers, engineers, data analysts, and stakeholders.
-  - Uncover and deliver insights.
-  - Build dashboards and track metrics.
-  - Design experiments and analyze results.
-  - Understand user context and team goals.
-  - Contribute to improving clinician happiness.
+- **Position:** Revenue Operations Analyst
+- **Reporting To:** VP of Sales (Reporting Manager)
+- **Location:** Remote within South Africa (aligned with US and European Hours)
+- **Salary Range:** R480,000 – R600,000 per annum
+- **Purpose:** Support day-to-day sales operations, provide analytics and insights to improve processes, optimize profitability, and enable scaling to 10-figure GMV.
+- **Significance:** Critical role blending strategic insights with technical skills to drive business growth.
 
 ---
 
-### Impact & Responsibilities
-- Guide teams to make data-informed decisions.
-- Create metrics, dashboards, and experiments to understand product and clinician behaviors.
-- Collaborate with stakeholders for analysis and insights.
-- Work with engineers to improve data models, transparency, and accessibility.
+### Responsibilities
+- **Data Analysis & Reporting:**  
+  - Analyze revenue performance metrics across sales, marketing, customer success.  
+  - Develop and maintain dashboards, reports, KPIs using Tableau, ThoughtSpot, HubSpot.  
+  - Provide actionable insights for process and revenue improvements.  
+  - Proactively identify opportunities via data analysis.  
+- **Process Optimization:**  
+  - Identify workflow inefficiencies and recommend improvements.  
+  - Assist in designing and implementing scalable processes.  
+  - Document processes ensuring compliance with best practices.  
+- **Systems & Tools Management:**  
+  - Manage CRM tools: HubSpot, Tofu, Clay.  
+  - Ensure accurate and consistent data across platforms.  
+  - Train team members on tools for self-sufficiency.  
+- **Cross-Functional Collaboration:**  
+  - Act as a bridge between sales and other departments, advocating for sales data.  
+  - Collaborate to identify challenges and develop strategies.  
+- **Forecasting & Planning:**  
+  - Support revenue forecasting and pipeline management.  
+  - Assist in creating budgets and setting performance targets.  
+  - Support sales lead allocation and commission structures.
 
 ---
 
-### Requirements
-- 2-4 years of experience in data analytics or related field.
-- Proficiency in SQL and data visualization tools.
-- Comfort with scripting languages (Python preferred, R acceptable).
-- Strong understanding of experiment design and A/B testing.
-- Excellent collaboration and communication skills.
-- Ability to work independently, prioritize, handle high ambiguity.
-- Deep curiosity, attention to detail, proactive attitude.
+### Skills & Profile
+- **Technical Skills:**  
+  - Strong analytical/problem-solving skills.  
+  - Proficiency in Excel, SQL, Python, BI tools (Tableau, Looker, Power BI).  
+  - Experience with CRM platforms such as HubSpot, Salesforce.  
+- **Interpersonal Skills:**  
+  - Excellent communication and collaboration skills.  
+- **Experience:**  
+  - Minimum 2+ years as a data analyst in a commercial role.  
+- **Attributes:**  
+  - Ability to manage multiple projects in a fast-paced environment.  
+  - Detail-oriented, accuracy-focused.
 
 ---
 
-### Benefits & Perks
-- Competitive salary and equity.
-- Immediate impact opportunity.
-- Medical, dental, vision benefits (US-based employees).
-- Unlimited PTO.
-- Company-sponsored annual retreats.
+### What Nivoda Offers
+- Fast-paced, multinational working environment with diverse global teams.
+- Opportunity to be part of a hyper-growth scale-up.
+- Flexible remote working arrangements.
+- Generous holiday allowance.
+- Medical aid coverage through Discovery.", 
+2,Operations QA Data Analyst,Lendable,UK,2025-05-23T16:50:42,ashbyhq,https://jobs.ashbyhq.com/lendable/6de90ef0-5c2f-4a2a-8ab5-4ff8de536a49?utm_source=remotive.com&ref=remotive.com,,78.0,"The candidate's extensive experience in data analysis, automation, dashboards, and AI aligns well with the technical requirements of the JD, including SQL, data pipelines, and cross-team collaboration. However, the resume does not explicitly mention experience in QA, regulatory environments, or specific customer outcome-focused activities, which are key aspects of the role. The strong technical background warrants an excellent score, but some gaps keep it from being perfect.",Not Applied,"**About the Company**  
+Lendable is a fintech company on a mission to improve consumer finance by making it faster, cheaper, and more friendly.  
+- One of the UK’s newest unicorns and among the fastest-growing tech companies in the UK  
+- Profitable since 2017  
+- Backed by investors such as Balderton Capital and Goldman Sachs  
+- Highly rated by customers (4.9 on Trustpilot)  
+- Rebuilt core financial products (loans, credit cards, car finance) from scratch  
+- Enables quick access to funds, in minutes  
+- Expanding into major Western markets (UK and US)   
 
----","Raviteja R  
+**Role & Responsibilities**  
+Operational QA Data Analyst responsible for analysis and reporting within the Quality Assurance team, focusing on improving customer outcomes and supporting the transition to AI-automated QA processes.  
+- Analyze data to identify issues, collaborate on root causes, and partner with product teams for resolution  
+- Monitor trends and risks in customer interactions using data-led insights  
+- Build audit-ready datasets and maintain data integrity  
+- Translate complex data into clear insights and actionable recommendations for senior stakeholders  
+- Deliver dashboards and reports to communicate data stories  
+- Manage end-to-end analytical projects from scoping to delivery  
+- Use ETL tools like DBT to streamline workflows  
+- Apply statistical methods to support decision-making  
+- Contribute to designing and implementing AI-driven QA frameworks  
+
+**Technical & Data Skills Required**  
+- Write and optimize complex SQL queries  
+- Ensure accurate and reliable data pipelines  
+- Use Python and DBT for data transformation and automation (desirable)  
+- Maintain data hygiene, reconciliation, validation, and documentation  
+
+**Cross-Team Collaboration**  
+- Work closely with QA, Product, Risk, and Operations teams  
+- Present insights clearly to both technical and non-technical audiences  
+
+**Requirements**  
+- Strong SQL skills and experience with complex queries  
+- Understanding of customer outcomes and improvement strategies  
+- Excellent communication skills for explaining analysis to diverse audiences  
+- Experience with dashboarding platforms  
+- Attention to detail and high-quality work ethic  
+- Adaptability in a fast-changing environment, particularly with AI tools  
+- Critical thinking and pattern recognition in data  
+- Knowledge of statistics and data validation practices  
+- Familiarity with data integrity, reconciliation, and documentation  
+  
+**Desirable Skills**  
+- Python and DBT proficiency for transformation and automation  
+- Experience with operational or customer service data, especially in regulated environments  
+- Knowledge of FCA, QA, and risk reporting frameworks  
+- Experience automating reports and improving MI processes  
+- Exposure to financial services or operational risk analytics  
+
+**Interview Process**  
+- Application with questions  
+- Remote call with Talent Team  
+- Onsite interview including competency questions and technical test  
+
+**Benefits & Work Environment**  
+- Competitive compensation, including equity  
+- Flexible working: work from home on Mondays and Fridays  
+- Office in Shoreditch, London, with in-office days for collaboration  
+- Fully stocked kitchen and office amenities  
+- Private health insurance coverage  
+- Commitment to inclusive and diverse workplace culture","Raviteja R  
 r2raviteja@gmail.com  
 +49 15216 442399  
 Munich, Germany  
 
-Date: May 31, 2025
+June 2, 2025
 
 Dear Hiring Manager,
 
-I am excited to apply for the Data Analyst position at Freed, a company whose mission to improve clinician happiness through innovative AI-driven solutions deeply resonates with my passion for leveraging data to create meaningful impact. With over five years of experience in data analysis, visualization, and automation, I am eager to contribute my expertise to support Freed's ambitious goals of transforming healthcare with data-driven insights.
+I am excited to apply for the Operational QA Data Analyst position at Lendable. With my extensive background in data analysis, automation, and stakeholder communication, I am eager to contribute to Lendable's mission of transforming consumer finance through innovative, data-driven solutions. The opportunity to support your expanding operations and AI-automated QA processes aligns perfectly with my skills and career aspirations.
 
-Throughout my career, I have demonstrated success in developing scalable analytics solutions that drive strategic decision-making. At Allianz Partners, I transformed manual KPI reports into dynamic dashboards using Power BI, automating data pipelines in Python and SQL that reduced reporting workload by 70%. Additionally, I engineered dashboards supporting 119 business units across regions—instrumental in guiding high-level executive strategies for a portfolio valued at $2.8 billion. My earlier role at Rapido involved designing and executing large-scale A/B tests with 200,000 users, resulting in a 5% rise in rides per customer, and improving customer satisfaction scores from 2.8 to 3.9 through NLP-driven feedback analysis. These experiences highlight my proficiency in data manipulation, visualization, experiment design, and stakeholder collaboration—skills that directly align with Freed’s needs.
+During my recent role at Allianz Partners, I transformed manual KPI reports into dynamic Power BI dashboards, reducing reporting workload by 70% through engineered ETL pipelines in Python and SQL. Additionally, I developed dashboards for over 119 business units handling a $2.8 billion portfolio, which enabled strategic decisions with actionable insights. At Rapido, I executed large-scale A/B tests with 200,000 users, leading to a 5% increase in customer rides, and built automated data pipelines in PySpark and SQL that cut dashboard load times by 95%. These achievements demonstrate my capability to handle complex data workflows, ensure data integrity, and present clear insights to diverse audiences.
 
-My technical background—including expertise in SQL, Python, Power BI, and NLP—equips me to uncover insights that inform product and operational decisions. I have led cross-functional collaborations to optimize key metrics, built customer segmentation models, and contributed to scaling startups from early growth to market leaders. My hands-on experience with A/B testing and experiment analysis complements Freed's focus on understanding clinician and patient behaviors, while my familiarity with Generative AI and NLP showcases my proactive approach to adopting cutting-edge technologies.
+My experience in automating processes and building reliable data pipelines positions me as an ideal fit for your needs at Lendable. I am proficient in SQL, Python, and dashboarding platforms like Power BI and Metabase, aligning with the role’s requirements for data hygiene, validation, and automation. I am also familiar with designing and maintaining robust data management practices, which are crucial for operational quality assurance and transitioning to AI-driven frameworks.
 
-What excites me most about Freed is its commitment to using AI for tangible healthcare improvements and its rapid growth backed by Sequoia. I share a deep curiosity for innovative solutions that reduce burnout and improve clinician well-being, and I am motivated by the opportunity to use my analytical skills to help shape products that positively impact millions of lives. I am confident my background, technical skills, and passion for healthcare analytics make me a valuable addition to your team.
+I am particularly drawn to Lendable’s innovative approach and growth trajectory within the fintech space. The company’s commitment to customer-centric solutions and use of AI for operational excellence resonates with my passion for leveraging technology to create measurable impact. I am excited about the prospect of applying my skills to enhance data quality, streamline workflows, and support strategic decisions that will improve customer outcomes.
 
-Thank you for considering my application. I would welcome the opportunity to discuss how I can contribute to Freed’s continued success and help deliver innovative solutions to clinicians worldwide.
+Thank you for considering my application. I look forward to the opportunity to discuss how my background and skills can contribute to Lendable’s continued success. Please feel free to contact me to schedule an interview.
 
 Sincerely,  
-Raviteja R",,85.0,"The candidate's extensive experience in data analysis, dashboard development, A/B testing, and stakeholder collaboration aligns well with the role's requirements. Their technical skills in SQL and Python, along with experience in product analytics, make them a strong match. Some specific experience with R or direct collaboration on product-government projects was not explicitly mentioned, slightly reducing the score.",Applied
+Raviteja R"
+3,Senior Data Analyst,Atlan,India,2025-04-15T08:50:33,ashbyhq,https://jobs.ashbyhq.com/atlan/bc2d3b7c-d21d-463a-b400-ca1c83b893cb?utm_source=remotive.com&ref=remotive.com,,78.0,"The candidate has a solid blend of technical skills, experience in data analysis, and AI exposure that align well with the JD. Their strengths in SQL, Python, visualization, and cross-functional collaboration are evident. Some specific tools like Sigma and an explicit AI-first mindset are less emphasized, though the candidate's interest and experience in AI/ NLP are promising. Overall, the profile fits the role very well, warranting an excellent match score.",Not Applied,"**About the Company**  
+- Industry: Data and AI governance, modern data stack  
+- Recognitions: Leaders by Gartner and Forrester  
+- Backing: Insight Partners  
+- Clients: Fortune 500 companies, startups, automotive, healthcare, Wall Street, Silicon Valley  
+- Mission: Transform data chaos into clarity and seamless collaboration, enabling data teams to unlock their full potential  
+- Achievements: 7X revenue growth in two years, global presence across 15+ countries, trusted by major companies like Cisco, Nasdaq, HubSpot  
+
+**Role Significance**  
+- Position: Senior Data Analyst  
+- Importance: Critical in making smart, data-informed decisions that shape strategy and accelerate company growth  
+- Focus: Deep data analysis to uncover insights, storytelling with data, and fostering an AI-first approach to analytics  
+
+**Key Responsibilities**  
+- Partner with teams such as Product, Marketing, Sales, Success to understand challenges and opportunities  
+- Conduct in-depth analyses using SQL, Sigma (BI platform), and possibly Python/R for advanced analysis  
+- Design experiments and identify key trends  
+- Translate complex data into clear insights and actionable recommendations  
+- Advocate for an AI-first mindset in data analysis  
+
+**Ideal Candidate Profile**  
+- Curious, analytical, collaborative problem-solver  
+- Strong SQL skills; adept with BI tools like Sigma  
+- Experience with Python or R is a plus  
+- Skilled at breaking down ambiguous problems and synthesizing insights  
+- Excellent communication skills for storytelling with data  
+- Collaborative and influential in cross-functional teams  
+- Proactive explorer of data, eager to learn and employ new techniques  
+- Explorer of AI advancements in data, prepared to support an AI-centric data ecosystem  
+
+**Benefits of Working at Atlan**  
+- Ownership from Day One on impactful projects  
+- Limitless growth opportunities  
+- Access to a global data community through open-source projects, meet-ups, conferences  
+- Fully remote work environment  
+- Engaged in a fast-growing company with mission to empower data teams worldwide  
+
+**Diversity & Inclusion**  
+- Committed to an inclusive workplace  
+- Equal opportunity employer  
+- Values diversity, authenticity, and varied perspectives  
+- Does not discriminate based on race, religion, gender, age, disability, or other protected characteristics", 
+4,HR Data Analyst,Virta Health,USA,2025-04-26T14:50:38,ashbyhq,https://jobs.ashbyhq.com/virtahealth/0a516307-5d03-4b3d-a22e-4de35636d364?utm_source=remotive.com&ref=remotive.com,'',78.0,"The candidate exhibits strong data analysis, visualization, automation, and cross-functional collaboration skills, aligning with many aspects of the HR Data Analyst role. However, the lack of explicit experience with HRIS platforms like Workday or ADP slightly reduces the score. Overall, their technical expertise indicates they can adapt and succeed in the role.",Not Applied,"**Job Description for HR Data Analyst at Virta Health**
+
+---
+
+### About the Company
+- **Company Name:** Virta Health
+- **Mission:** Pioneering a new standard of care to help people reclaim their lives by reversing obesity and type 2 diabetes through individualized nutrition and ongoing clinical support.
+- **Funding:** Raised over $350 million from top-tier investors.
+- **Partnerships:** Collaborates with major health plans, employers, and government organizations to improve health outcomes.
+
+---
+
+### Role Responsibilities
+- Serve as the system owner for HRIS platforms (e.g., ADP, Workday, BambooHR).
+- Manage HRIS configuration, workflows, data integrity, and system upgrades.
+- Partner with IT and vendors for system integrations and new modules.
+- Troubleshoot HRIS-related issues and act as the primary contact.
+- Build and maintain reporting infrastructure, dashboards, and provide actionable insights.
+- Support key People workflows including talent reviews, performance cycles, compensation, and engagement planning.
+- Collaborate cross-functionally with Talent, Total Rewards, Finance, and IT teams to ensure seamless data flow and process efficiency.
+- Recommend and implement technology improvements to enhance employee experience.
+
+---
+
+### Requirements
+- 5+ years of experience in HRIS, people analytics, or people operations, ideally in a high-growth or tech environment.
+- Proficient in Excel/Google Sheets; experience with SQL, Python, or BI tools (Tableau, Looker, Power BI) is a plus.
+- Hands-on experience with HRIS platforms such as ADP, Workday, UKG.
+- Strong project management and communication skills.
+- Analytical mindset with detail-oriented approach.
+- Ability to translate technical concepts for non-technical stakeholders.
+
+---
+
+### Compensation & Benefits
+- **Salary Range:** $92,129 - $108,386 (based on experience and qualifications).
+- Additional benefits details available on Virta’s Careers page.
+
+---
+
+### Work Environment & Location
+- **Work Model:** Remote-first company.
+- **Physical Offices:** Denver and San Francisco.
+- **Location Restrictions:** Does not hire in AK, AR, DE, HI, ME, MS, NM, OK, SD, VT, WI.
+- **Work Preference:** #LI-remote indicates a flexible remote work environment.
+
+---
+
+### Legal & Confidentiality
+- Role may involve handling sensitive patient information governed by HIPAA.
+- Employees are required to follow Virta’s privacy and security policies.
+- Security and privacy training will be provided.
+
+---", 
+5,"Data Analyst, Autonomy",Serve Robotics,"USA, Canada",2025-05-12T18:51:04,ashbyhq,https://jobs.ashbyhq.com/serverobotics/5cf8ab40-b4cc-437d-8dce-c9145adca17d?utm_source=remotive.com&ref=remotive.com,,83.0,"The candidate's extensive experience in data analysis, KPI development, dashboarding, A/B testing, and AI/ML frameworks aligns closely with the core responsibilities of the Senior Analyst role at Serve Robotics. While there is no explicit mention of robotics or autonomous systems experience, their skills in statistical analysis, insights generation, and cross-functional collaboration make them a strong fit for the position.",Not Applied,"Here is the structured and clean job description for the Senior Analyst position at Serve Robotics:
+
+---
+
+**About Serve Robotics**  
+Serve Robotics is reimagining urban mobility with personable sidewalk robots designed to take deliveries away from congested streets, increase accessibility, and support local businesses. The Serve fleet operates in Los Angeles, providing commercial delivery services that delight merchants, customers, and pedestrians.  
+
+**Company Mission & Team**  
+- Industry veterans in software, hardware, and design building future solutions.  
+- Focus on solving real-world problems using robotics, machine learning, and computer vision.  
+- Emphasize an end-to-end user experience.  
+- Agile, diverse, and collaborative team environment.
+
+**Role Overview**  
+We are seeking a Senior Analyst to help revolutionize autonomous last-mile delivery. The role involves working cross-functionally to derive insights, optimize processes, and make strategic decisions that support rapid growth. The analyst will focus on measuring success, guiding market expansion, and improving fleet operations through data analysis and insights.
+
+**Key Responsibilities**  
+- **Data Analysis & Insights Generation**  
+  - Analyze robot operation data to identify causes of performance issues and stoppages.  
+  - Develop methodologies to uncover meaningful trends.  
+  - Support autonomy teams with system performance and failure insights.  
+  - Contribute to shaping the long-term autonomy roadmap.
+
+- **Metrics & KPI Development**  
+  - Define and refine KPIs for features and deployment.  
+  - Work with engineering and product teams to ensure KPIs support feature success.  
+  - Establish statistical methods for data evaluation.
+
+- **Dashboarding & Reporting**  
+  - Build and maintain dashboards and reports for performance insights.  
+  - Automate reporting processes to monitor feature effectiveness and operations.  
+  - Ensure KPIs visibility across stakeholders.
+
+- **Testing & Operational Design Domain (ODD)**  
+  - Define frameworks to measure the significance of production and testing metrics.  
+  - Assess test coverage and data sufficiency for real-world validity.  
+  - Support A/B testing and experimental analysis for autonomous features.
+
+**Qualifications**  
+- 3+ years in data modeling and analysis, preferably in robotics, autonomous systems, or logistics.  
+- Advanced SQL skills for data exploration and transformation.  
+- Proficiency with data visualization/BI tools (e.g., Tableau, Looker).  
+- Strong programming skills in Python or R.  
+- Deep understanding of statistical analysis, hypothesis testing, and experimental design.  
+- Excellent communication skills for translating data insights into actionable recommendations.
+
+**Preferred Skills**  
+- Familiarity with machine learning concepts.  
+- Experience working with autonomy teams and KPIs.  
+- Basic knowledge of data pipelines, data partitioning, and cloud performance optimization.
+
+---", 
+6,Senior Data Engineer,Hatch,USA,2025-05-12T14:50:38,ashbyhq,https://jobs.ashbyhq.com/hatch/977f8ecd-96e5-4f10-972e-484b5f986fa5?utm_source=remotive.com&ref=remotive.com,,70.0,"The candidate demonstrates strong data pipeline development, cloud platform experience, and scripting skills relevant to the role. However, there's limited explicit experience with data orchestration tools (e.g., Airflow, Talend), large-scale data warehousing, and governance practices crucial for a senior data engineer role. The background aligns more with data analysis and product analytics rather than full-scale data engineering at a senior level.",Not Applied,"**About Hatch:**  
+- Company: Hatch  
+- Website: [https://www.usehatchapp.com/](https://www.usehatchapp.com/)  
+- Description: Building AI that interacts directly with customers, not just behind the scenes  
+- Backing: Y Combinator, Bessemer, NextView  
+- Growth: Doubling revenue year over year  
+- Mission: Cement position as category leader in AI for customer engagement  
+
+**Role:** Senior Data Engineer  
+- Location: Must be based in the US/Canada (CST, EST)  
+- Team: Growing data team  
+- Responsibilities:  
+  - Build, optimize, and maintain data pipelines and architectures  
+  - Support analytics, reporting, and AI initiatives  
+  - Work with data integration, warehousing, and large-scale data processing systems  
+- Ideal Candidate: Experienced in data systems, proactive, thrives in fast-paced environments  
+
+**Key Responsibilities:**  
+- Design, construct, test, maintain scalable data pipelines and ETL processes  
+- Build and maintain data architectures (databases, data lakes, warehouses)  
+- Collaborate with data analysts, data scientists, and engineers  
+- Optimize data workflows for performance and reliability  
+- Implement data quality, validation, and governance practices  
+- Integrate data from sources like APIs, databases, and files  
+- Document data pipelines and schemas  
+- Monitor and troubleshoot pipelines  
+
+**Requirements:**  
+- 5+ years of data engineering experience, including senior/staff roles  
+- Proficiency in SQL and one programming language (Python, Golang, Scala)  
+- Experience with ETL tools (Apache Airflow, Talend, DBT)  
+- Familiar with cloud platforms (AWS or GCP), services like S3, Redshift, BigQuery, Snowflake  
+- Experience with distributed data processing frameworks (Apache Spark, Kafka)  
+- Strong understanding of data modeling, warehousing, governance  
+- Expertise in Python, Go, or other backend languages; microservices experience a plus  
+- Knowledge of databases (PostgreSQL, Redis, etc.) and data architecture  
+- Experience with ML systems, LLMs, vector databases, prompt engineering, API integrations  
+
+**Skills and Qualities:**  
+- Excellent collaboration and communication skills  
+- Product-oriented mindset  
+- Mentoring and leadership experience in technical projects  
+
+**Nice-to-Have:**  
+- Startup environment experience  
+- Knowledge of CI/CD for data pipelines  
+- Containerization and orchestration (Docker, Kubernetes)  
+
+**What Hatch Offers:**  
+- Competitive salary and equity  
+- Remote work (Eastern or Central Time Zone required) or hybrid (NYC office, 3 days/week)  
+- Benefits: medical, dental, vision, 401(k), flexible PTO  
+- Opportunity to influence a high-growth, mission-driven company  
+
+**Additional Notes:**  
+- No sponsorship offered  
+- Focus on AI-driven customer service innovation  
+- Collaborative and fast-paced culture with a focus on engineering excellence", 
+7,Data Scientist,Goodparty,USA,2025-03-19T00:50:40,ashbyhq,https://jobs.ashbyhq.com/goodparty/325a7951-7ad8-48c5-a09f-8c92f9aa3a72?utm_source=remotive.com&ref=remotive.com,,85.0,"The resume demonstrates strong experience in data analysis, dashboard development, data transformation, and stakeholder collaboration, all of which align well with the JD. While specific experience with Tableau, Databricks, and wireframing tools isn't explicitly mentioned, the candidate's skill set covers essential requirements, supporting an excellent fit for the role.",Not Applied,"**Job Title:** Part-time Data Scientist / Data Analyst
+
+**Organization:** GoodParty.org
+
+**Location:** Remote (USA only)
+
+**Position Type:** Contract, Part-time (20-30 hours/week)
+
+**Duration:** 4-6 weeks with potential extension
+
+**Hourly Rate:** $45 - $60 (to be determined based on experience and qualifications)
+
+---
+
+### About GoodParty.org
+GoodParty.org is a civic platform committed to empowering independents to run, win, and serve in office, transforming civic leadership. The organization aims to challenge the two-party system, promote community-driven solutions, and build a truly representative democracy. In 2024, the organization helped elect over 3,400 independent candidates across 48 states, with a goal to reach 1,000 wins in 2024. They focus on grassroots campaigns, community empowerment, and removing partisan and big-money influences from politics.
+
+---
+
+### Responsibilities
+- Develop and refine internal dashboards in Tableau based on stakeholder requirements.
+- Perform minor data transformations to prepare data for visualization (using tools like Databricks, PostgreSQL, or dbt).
+- Assist with wireframing dashboard layouts and interpreting metrics.
+- Collaborate with team leads and a data science contractor to ensure dashboards align with organizational goals.
+- Test and iterate on visualizations to optimize usability and insights.
+
+---
+
+### Requirements
+- Strong expertise in Tableau, with a focus on dashboard building and data visualization best practices.
+- 3+ years of experience as a data analyst or data scientist.
+- Experience with data transformation tools such as Databricks, PostgreSQL, or dbt.
+- Familiarity with wireframing tools like Figma or Balsamiq.
+- Ability to develop and refine dashboards based on stakeholder needs.
+- Ability to work part-time, committed to 20-30 hours per week.
+
+### Bonus Qualifications
+- Experience with political or election reporting metrics.
+- Experience working at a data-driven startup.
+- Volunteering or working in politics, activism, or democracy reform.
+- Passion for improving democracy and civic engagement.
+
+---
+
+### Benefits & Why Join Us
+- Fully remote work environment, flexible hours.
+- Join a mission-driven organization focused on social impact and democracy reform.
+- Stable funding with no concerns about project sustainability.
+- Be part of a passionate, diverse team committed to meaningful change.
+
+### Compensation & Application
+- Hourly pay between $45 and $60, based on experience.
+- Interested candidates should submit their resume outlining relevant experience.
+- Candidates must be based in the U.S. as sponsorship is not available.
+
+---
+
+This structured overview captures the key elements of the original job description, organized into sections for clarity.", 
+8,Data Analyst,Devsavant,LATAM,2025-05-02T02:51:24,ashbyhq,https://jobs.ashbyhq.com/devsavant/70aee6e1-7105-4a97-b9aa-fcd5efee717b?utm_source=remotive.com&ref=remotive.com,,85.0,"The candidate has strong SQL skills, extensive experience with BI tools like Power BI and Tableau, and background in data pipelines, data quality, and stakeholder collaboration, all of which align well with the JD. The experience in data analysis, dashboards, and data QA matches the role's core responsibilities. Limited explicit mention of DBT slightly reduces the score but overall, the candidate's profile fits the role's requirements very well.",Not Applied,"**About the Company**  
+- Name: DevSavant  
+- Focus Areas: Software Development, Data Engineering, AI/Machine Learning, Cloud Services, Automation Testing, UI/UX Design  
+- Culture: Growth, collaboration, well-being  
+- Description: Trusted technology partner delivering cutting-edge solutions  
+
+**Role**  
+- Position: Data Analyst  
+- Department: Data Operations  
+- Reports to: VP, Data Operations  
+- Working Hours: US business hours  
+- Focus: Ensure accurate and timely data delivery, partner with commercial team to deliver custom data solutions, collaborate internally and with customers  
+
+**Responsibilities**  
+- Design data solutions leveraging complex data pipelines  
+- Own data QA processes to ensure reliability and accuracy  
+- Collaborate with technical and commercial teams for rapid delivery of high-quality data products  
+- Identify strategic opportunities through collaboration with stakeholders and customers  
+- Manage and review all QA DBT tests  
+- Use dashboards (Redash) for trend analysis and investigate data quality issues  
+- Work with Data Ops, Product Marketing, and Engineering during data deployment  
+- Update LookML for monthly data releases in Looker  
+- Assess new coverage feasibility  
+
+**Requirements**  
+- 2+ years of SQL experience  
+- Proficiency with Excel and BI tools (Looker, Redash)  
+- Some experience with DBT  
+- Ability to analyze large datasets with attention to detail  
+- Strong critical thinking and problem-solving skills  
+- Experience collaborating with stakeholders to improve processes  
+- Ability to communicate technical analyses clearly  
+- Self-starter, capable of managing multiple initiatives and meeting deadlines in a fast-paced environment  
+- Advanced English proficiency (B2-C1)  
+- Please submit a resume in English  
+
+**Preferences**  
+- Passionate about the Subscription Economy and digital subscription markets  
+- Deep understanding of key players in the industry", 
+9,Financial Crime Data Analyst,Capitex,UK,2025-05-01T18:50:14,workable,https://apply.workable.com/j/29E2999E22?utm_source=remotive.com&ref=remotive.com,,70.0,"The candidate has strong SQL, data handling, and visualization skills, which align with the role's technical requirements. However, they lack specific experience in financial crime, AML, KYC, and compliance, which are critical for this position. The overall profile shows good technical fit but limited domain-specific experience.",Not Applied,"**Job Title:** Financial Crime Data Analyst (SQL & Large Data Sets)  
+**Location:** Remote (UK-based)  
+**Job Type:** Full-Time / Contract  
+
+---
+
+### About the Role
+We are seeking a highly skilled Financial Crime Data Analyst with strong SQL expertise and experience working with large, complex data sets. The ideal candidate will have a deep understanding of financial crime frameworks, including AML, KYC, and transaction monitoring analytics. This role involves supporting financial crime investigations through data-driven insights and reporting, contributing to a safer and more compliant financial environment. The position is remote, functioning within a UK-based team.
+
+---
+
+### Key Responsibilities
+- Write, optimize, and execute advanced SQL queries to analyze large volumes of financial data.
+- Conduct in-depth analysis of AML, KYC, and transaction monitoring data to identify patterns, trends, and anomalies.
+- Translate complex datasets into actionable insights, visualizations, and compliance reports.
+- Collaborate with teams across compliance, risk, and technology to support investigations and initiatives.
+- Ensure data integrity and adherence to data governance and regulatory standards.
+- Support development and enhancement of monitoring rules and models based on analytical findings.
+
+---
+
+### Requirements
+- Proven expertise in SQL, including performance optimization and handling large-scale datasets.
+- Background in financial crime analytics such as AML, KYC, and transaction monitoring.
+- Strong analytical and problem-solving skills with high attention to detail.
+- Ability to interpret and apply regulatory requirements to data analysis.
+- Familiarity with UK and international financial crime regulations and data governance practices.
+- Experience with data visualization tools (e.g., Power BI, Tableau) is a plus.
+
+---
+
+### What We Offer
+- Fully remote role within a supportive UK-based team.
+- Competitive salary and flexible working hours.
+- Opportunity to work on impactful projects within the financial crime domain.", 

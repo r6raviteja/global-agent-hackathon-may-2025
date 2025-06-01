@@ -2,11 +2,6 @@ import os
 import json
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
-#openai_api_key = os.environ["OPENAI_API_KEY"]
-#OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
-#os.environ["GROQ_API_KEY"]
-#os.environ["OPENROUTER_API_KEY"]
-#os.environ["FIRECRAWL_API_KEY"]
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders.csv_loader import CSVLoader
@@ -16,7 +11,7 @@ import sys
 
 def CL_gen(num_job):
     with open("JD.txt", "w", encoding="utf-8") as f:
-        f.write(df["Combined"].iloc[num_job])
+        f.write(df["Description"].iloc[num_job])
 
     def load_file(file_path: str):
         """

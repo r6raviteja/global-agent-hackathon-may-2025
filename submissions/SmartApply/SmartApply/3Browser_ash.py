@@ -294,10 +294,10 @@ async def main():
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(result_data, f, cls=CustomEncoder, indent=4, ensure_ascii=False)
 
-
+import time
 if __name__ == '__main__':
     asyncio.run(main())
-    
+    time.sleep(2)
     # Step 1: Get job index (from CLI or default to 0)
     #num_job = int(sys.argv[1]) if len(sys.argv) > 1 else 0
     # Step 2: Load output_agent.json
