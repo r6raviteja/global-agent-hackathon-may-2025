@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
 from agno.tools.reasoning import ReasoningTools
-
+from agno.tools.duckduckgo import DuckDuckGoTools
 
 def clean_html_content(html_content):
     """
@@ -40,13 +40,14 @@ def clean_html_content(html_content):
             name="Job Description Analyzer",
             role="Analyze and extract key information from job descriptions.",
             model=OpenAIChat("gpt-4.1-nano"),
-            tools=[ReasoningTools(add_instructions=True)],
+            tools=[ReasoningTools(add_instructions=True),DuckDuckGoTools()],
             instructions=[
                 "Do not invent any information not present in the original text.",
                 f"""
                 Clean and structure the following job description text, removing any remaining HTML artifacts or unwanted formatting.
                 Organize it into clear sections if possible (e.g., About, Responsibilities, Requirements, Benefits).
                 Keep only the essential information and format it in a clean, readable way.
+                Optionally use web search to know more about company. 
                 Don't write Here is the cleaned and structured job description. Just return the cleaned and structured job description.
 
                 Text to clean:
@@ -248,7 +249,7 @@ df = df.sort_values(by='Apply_Source', key=lambda col: col.map(sort_key))
 # filter jobs
 #df = df[df['Apply_Source'] == 'ashbyhq'].head(3)
 df = df.head(10)
-
+print(df)
 print("Total jobs: "+str(len(df)))
 
 df["Description"] = df["Description"].apply(clean_html_content)
