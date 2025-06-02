@@ -4,11 +4,12 @@ SmartApply is an AI-powered agent designed to automate and streamline the job ap
 
 ---
 ## 🚀 How to run
-1. comment down 4Mail.py it requires your Composio account API key
-2. Place your resume (CV.pdf)
-3. install requirements.txt, Optionally Change advanced models in 3Browser_ash.py like claude,.. if needed. and add environment variables openai, gemini, .. 
-4. Run st_app.py ( JobsData.csv have list of jobs or you can also run app.py without ui )
-5. Update preferences and click apply.
+1. Place your resume (CV.pdf)
+2. Fill API keys in .env, install requirements.txt, Optionally Change **advanced models in 3Browser_ash.py** line 181 to like claude,.. 
+3. streamlit run st_app.py ( JobsData.csv have list of jobs or you can also run app.py without ui )
+4. Update preferences and click apply.
+5. After it fills all details user need to type 'confirm' in terminal when it asks before submission.
+
 
 
 ## 🚀 Features
@@ -30,12 +31,12 @@ SmartApply is an AI-powered agent designed to automate and streamline the job ap
 ---
 
 ## 📂 Project Structure
-
 SmartApply/
-├── app.py # Main app
+├── st_app.py # Streamlit UI main app
+├── app.py # without UI Main app 
 ├── UserData.py ( fill user preferences like salary,..)
-├── 1JDa.py and 1JDb.py ( Scrapes latest jobs and save to JobsData.csv )
-├── 1Score.py # Agno agents score resume against each job and checks for language requirement like German,..
+├── 1JD.py  ( Scrapes latest jobs and save to JobsData.csv )
+├── 1Score.py # Agno agents score resume against each job and checks for language requirement like German, finds recruiter mail from JD,..
 ├── 2CL.py # Automatically generates cover letter based on criteria (minimum match as 60%)
 ├── 3Browser_ash.py # Automatically fills job application 
 ├── 4Mail.py # Sends email to recruiter and user confirmation 
@@ -49,6 +50,16 @@ SmartApply/
 📸 Demo
 https://youtu.be/dWA_qBwlwH8
 
+## Prize Category
+*(To be assigned by judges)*
+- [x] Best use of Agno
+- [ ] Best use of Firecrawl
+- [ ] Best use of Mem0
+- [ ] Best use of Graphlit
+- [x] Best use of Browser Use
+- [ ] Best Overall Project
+
+
 Hi everyone! I'm excited to introduce SmartApply, an AI-powered job application agent built using Agno.
 
 Applying to jobs can be repetitive and exhausting, especially when every job expects a custom resume and cover letter. SmartApply solves that.
@@ -56,7 +67,6 @@ First, just place your resume SmartApply will automatically match your resume wi
 
 It doesn’t stop there. With just one click, the agent can simulate applying to jobs, send confirmation emails using Composio, and even fill job forms automatically via browser automation.
 
-There's also a simple front-end using V0, where you can upload job data and track everything.
 SmartApply helps you go from resume to ready in seconds — personalized, automated, and scalable.
 Check out the full demo and code, and thanks for watching!
 
